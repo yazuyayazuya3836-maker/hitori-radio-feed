@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ひとり社長ラジオ</title>
+    <link>https://yazuyayazuya3836-maker.github.io/hitori-radio-feed/</link>
+    <atom:link href="https://yazuyayazuya3836-maker.github.io/hitori-radio-feed/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>フリーランス歴2年・ひとり社長歴5年の鳥屋が、社長人生で得た学びと気づきをお届けする番組。ひとり社長の意思決定を残す備忘録。</description>
+    <language>ja</language>
+    <itunes:author>鳥屋直弘</itunes:author>
+    <itunes:owner>
+      <itunes:name>鳥屋直弘</itunes:name>
+      <itunes:email>naohiro.toriya@birdy-official.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://yazuyayazuya3836-maker.github.io/hitori-radio-feed/cover.jpg"/>
+    <itunes:category text="Business">
+      <itunes:category text="Entrepreneurship"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>【第1回】ひとり社長のすゝめ｜社員ゼロで7年、それでも会社は回る</title>
+      <guid isPermaLink="false">hitori-radio-jissha-ep001</guid>
+      <pubDate>Fri, 29 Aug 2026 09:00:00 +0900</pubDate>
+      <enclosure url="https://yazuyayazuya3836-maker.github.io/hitori-radio-feed/episodes/ep001.mp3" length="62093046" type="audio/mpeg"/>
+      <itunes:duration>43:07</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <description><![CDATA[記念すべき第1回のテーマは「ひとり社長のすゝめ」。アシスタントに都内でOLをされているキャメロンさんをお迎えして、会社員目線の率直な質問に答えながら、社員を取らずに7年間事業を続けてきた理由を語ります。<br/><br/>・なぜ社員を雇わず業務委託組織でやるのか<br/>・「飛ばれるリスク」への仕組みづくり<br/>・ひとり社長は孤独じゃないのか<br/>・原動力はコンプレックス<br/>・独立して後悔した人を見たことがない話<br/><br/>(00:00) オープニング「ひとり社長のすゝめ」<br/>(01:05) 鳥屋の自己紹介｜YouTube運用代行・株式会社BIRDY<br/>(03:20) 原点は筋トレYouTuber「トンペイフィットネス」<br/>(07:06) 動画編集者デビューから7年<br/>(10:39) なぜ社員を取らないのか｜業務委託組織という選択<br/>(14:19) 「飛ばれるリスク」にどう備えるか｜4レイヤーの組織構造<br/>(17:20) ひとり社長は孤独じゃないのか｜コミュニティの重要性<br/>(23:52) ひとり社長に向いている人<br/>(27:05) 原動力はコンプレックス｜浪人・休学からの逆転<br/>(34:14) 起業の醍醐味「自分の手で世界を作り変えてる感覚」<br/>(36:53) ぶっちゃけ7年やって楽しい?<br/>(42:41) エンディング]]></description>
+    </item>
+  </channel>
+</rss>
