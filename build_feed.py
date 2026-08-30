@@ -29,17 +29,22 @@ for ep in data["episodes"]:
     path = os.path.join(HERE, ep["file"])
     size = os.path.getsize(path)
     url = f'{base}/{ep["file"]}'
-    desc = escape(ep["description"]).replace("\n", "<br/>")
+    summary = escape(ep["description"].split("\n")[0])
     items.append(f"""    <item>
       <title>{escape(ep["title"])}</title>
+      <link>{escape(ch["link"])}</link>
       <guid isPermaLink="false">{escape(ep["guid"])}</guid>
       <pubDate>{ep["pub_date"]}</pubDate>
       <enclosure url="{escape(url)}" length="{size}" type="audio/mpeg"/>
       <itunes:duration>{fmt_duration(ep["duration_sec"])}</itunes:duration>
       <itunes:episode>{ep["episode_number"]}</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>{summary}</itunes:summary>
       <description><![CDATA[{ep["description"].replace(chr(10), "<br/>")}]]></description>
     </item>""")
+
+last_build = data["episodes"][-1]["pub_date"] if data["episodes"] else ""
 
 feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -52,6 +57,8 @@ feed = f"""<?xml version="1.0" encoding="UTF-8"?>
     <atom:link href="{escape(ch["feed_url"])}" rel="self" type="application/rss+xml"/>
     <description>{escape(ch["description"])}</description>
     <language>{ch["language"]}</language>
+    <lastBuildDate>{last_build}</lastBuildDate>
+    <itunes:summary>{escape(ch["description"])}</itunes:summary>
     <itunes:author>{escape(ch["author"])}</itunes:author>
     <itunes:owner>
       <itunes:name>{escape(ch["owner_name"])}</itunes:name>
