@@ -4,7 +4,8 @@ GitHub Pages でホスティングしている「ひとり社長ラジオ」の�
 
 - **RSSフィード**: https://yazuyayazuya3836-maker.github.io/hitori-radio-feed/feed.xml
 - **Spotify（登録済み 2026-08-30）**: https://open.spotify.com/show/0p6jqbhvIrGoloGmMtKN4k
-- Apple Podcasts / Amazon Music は未登録（下記「他プラットフォーム」参照）
+- **Apple Podcasts（登録済み 2026-08-30・公開済み）**: https://podcasts.apple.com/us/podcast/id6806688752 （番組ID 6806688752）
+- Amazon Music / YouTube Music は未登録（YouTube MusicはチャンネルOK後24hの制限で2026-08-31以降に再試行）
 
 ## 配信の仕組み
 
@@ -30,7 +31,7 @@ Spotify等が自動取得（登録済みプラットフォームは以後ぜん�
 
 RSSは共通なので、**各サービスに1回フィードURLを登録すれば、以後のエピソードは全部自動配信**される。
 
-- **Apple Podcasts**: https://podcastsconnect.apple.com → 番組追加 → RSSフィードURL入力（Apple IDが必要）
+- ~~Apple Podcasts~~: 登録済み。管理は podcastsconnect.apple.com（Apple ID=yazuyayazuya3836@gmail.com）
 - **Amazon Music / Audible**: https://podcasters.amazon.com → Add your podcast
 - **YouTube Music**: YouTube Studioの「ポッドキャスト」タブ → RSS取り込み（既存のひとり社長ラジオchに紐付け可）
 - 上記に登録すると Podcast Index 系の小さいアプリ（Overcast, Pocket Casts等）にも波及する
