@@ -6,7 +6,8 @@ GitHub Pages でホスティングしている「ひとり社長ラジオ」の�
 - **Spotify（登録済み 2026-08-30）**: https://open.spotify.com/show/0p6jqbhvIrGoloGmMtKN4k
 - **Apple Podcasts（登録済み 2026-08-30・公開済み）**: https://podcasts.apple.com/us/podcast/id6806688752 （番組ID 6806688752）
 - **Amazon Music / Audible（登録済み 2026-08-30・ACTIVE）**: 管理は podcasters.amazon.com
-- YouTube Music のみ未登録（「アカウントが新しすぎる」制限。2026-08-31以降にStudio→ポッドキャスト→RSSフィード送信で再試行）
+- **YouTube Music（2026-09-12 方式確定）**: RSS取り込みは音声動画がチャンネルに公開され動画版と重複するため**廃止**。代わりに**実写動画版をStudioのポッドキャスト（再生リスト型）に追加**して配信（新エピソードは動画をポッドキャスト再生リストに入れるだけ）
+- **stand.fm（2026-09-12 開設・手動アップ方式）**: チャンネル https://stand.fm/channels/6aa545850ddda09476bb22db （Google連携=hitorishacho777@gmail.com）。**RSS取り込み非対応**のため毎回PCサイトからMP3を直接アップする（下記手順）
 
 ## 配信の仕組み
 
@@ -43,6 +44,16 @@ RSSは共通なので、**各サービスに1回フィードURLを登録すれ�
 2. `episodes.json` の `episodes` 配列にエントリを追記
 3. `python3 build_feed.py` で `feed.xml` を再生成
 4. `git add -A && git commit -m "epXXX" && git push` → 数分でPages反映、各プラットフォームが自動取得
+
+## stand.fm へのエピソード追加手順（RSS非対応・毎回手動/自動化）
+
+1. 専用Chrome（youtube-unlisted-uploadプロファイル・CDP 9222）で stand.fm にログイン済みであること（Google連携 hitorishacho777@gmail.com）
+2. https://stand.fm/episodes/new を開く（フォーム描画を待つ: `input[placeholder=タイトルを入力]` が出るまで）
+3. 音源とサムネは **生CDPの DOM.setFileInputFiles** で投入（PlaywrightのsetInputFilesは50MB超を転送できない）。file input[0]=音源mp3、[1]=放送画像（cover.jpg）
+4. タイトル（**40字以内**）・説明（2500字以内・LINE+YouTubeリンク+ハッシュタグ）・公開範囲=全体に公開・カテゴリ=ビジネス・露骨な表現を含まない → 投稿する
+5. 「音声と画像をアップロード中」→「放送の公開処理中」→ 完了で `/episodes/<id>` に遷移。**初回投稿は「エラーが発生しました」が出ることがある→閉じる→再度「投稿する」で通る**
+6. アップロード中は専用Chromeを閉じないこと（閉じると中断される）
+- チャンネル名/アイコン/プロフィールの編集は**スマホアプリのみ**（PCサイトのアカウント設定にはSNS連携等しかない）
 
 ## 注意
 
