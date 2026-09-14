@@ -9,7 +9,7 @@
     <atom:link href="https://yazuyayazuya3836-maker.github.io/hitori-radio-feed/feed.xml" rel="self" type="application/rss+xml"/>
     <description>フリーランス歴2年・ひとり社長歴5年の鳥屋が、社長人生で得た学びと気づきをお届けする番組。ひとり社長の意思決定を残す備忘録。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 12 Sep 2026 14:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 14:06:23 +0900</lastBuildDate>
     <itunes:summary>フリーランス歴2年・ひとり社長歴5年の鳥屋が、社長人生で得た学びと気づきをお届けする番組。ひとり社長の意思決定を残す備忘録。</itunes:summary>
     <itunes:author>鳥屋直弘</itunes:author>
     <itunes:owner>
@@ -47,6 +47,19 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:summary>第2回のテーマは「今すぐ独立しようのすゝめ」。</itunes:summary>
       <description><![CDATA[第2回のテーマは「今すぐ独立しようのすゝめ」。<br/>「フリーランスから正社員へ出戻り」の風潮に、新卒フリーランス7年目が真っ向から反論します。アシスタントは今回も現役会社員のキャメロンさん。元転職エージェントの視点で切り込みます。<br/><br/>・挫折は早いほうがいい——市場から否定されろ<br/>・「潰しが効く」は貧弱な発想<br/>・大事な情報はネットに出ない、オフラインだけ<br/>・独立したてが一番お買い得<br/>・プライドを捨てれば独立はうまくいく<br/><br/>(00:00) オープニング「今すぐ独立しようのすゝめ」<br/>(01:43) 転職エージェントが見た「出戻り」の実態<br/>(03:01) 孤独を感じない7年間<br/>(04:56) 新卒フリーランス20人の生存率<br/>(11:04) 挫折は早いほうがいい<br/>(13:24) 会社員の決断はなぜ重いのか<br/>(14:52) 「潰しが効く」は貧弱な発想<br/>(15:59) 独立して何が楽しいのか<br/>(21:07) コミュニティの見つけ方<br/>(25:26) 大事な情報はネットに出ない<br/>(30:38) 小さく始めてフルコミット<br/>(34:30) プライドを捨てろ<br/>(36:30) エンディング]]></description>
+    </item>
+    <item>
+      <title>【備忘録】7年間、風邪で仕事を休まなかった5つの習慣</title>
+      <link>https://yazuyayazuya3836-maker.github.io/hitori-radio-feed/</link>
+      <guid isPermaLink="false">hitori-radio-bibouroku-001</guid>
+      <pubDate>Mon, 14 Sep 2026 14:06:23 +0900</pubDate>
+      <enclosure url="https://yazuyayazuya3836-maker.github.io/hitori-radio-feed/episodes/ep003.mp3" length="7311190" type="audio/mpeg"/>
+      <itunes:duration>7:37</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>独立して7年、風邪で仕事に穴を空けたことは一度もありません。周りの経営者やフリーランスが「体調を崩して退場していく」のを見てきたからこそ、ひとり社長として心がけてきた5つの習慣について話しました。</itunes:summary>
+      <description><![CDATA[独立して7年、風邪で仕事に穴を空けたことは一度もありません。周りの経営者やフリーランスが「体調を崩して退場していく」のを見てきたからこそ、ひとり社長として心がけてきた5つの習慣について話しました。<br/><br/>・①水を大量に飲む（まず2〜3L、目標5〜6L）<br/>・②睡眠時間だけは削らない<br/>・③朝まで飲まない<br/>・④タンパク質を取る（体重×2gが目安）<br/>・⑤日光を浴びる（ゴルフ・朝の散歩）<br/><br/>(00:00) 7年間、風邪で一度も仕事を空けなかった話<br/>(00:23) 体調を崩して退場していく人が一定いる<br/>(01:18) 前提：風邪は引くが、仕事に穴は空けない<br/>(01:35) ①水を大量に飲む<br/>(02:57) ②睡眠時間だけは削らない<br/>(03:41) ③朝まで飲まない<br/>(05:07) ④タンパク質を取る<br/>(05:56) ⑤日光を浴びる<br/>(07:05) 運動はゴルフくらい。20代は仕事にフルコミット<br/><br/>動画版（YouTube「ひとり社長の備忘録」）: https://youtu.be/gfzx7cVabag]]></description>
     </item>
   </channel>
 </rss>
